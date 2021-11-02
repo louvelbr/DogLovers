@@ -80,5 +80,4 @@ MADRELLE Alexis (madrelleal@eisti.eu)
 
 
 GitLab : https://gitlab.etude.eisti.fr/meetandlove/dog-lovers
-# DogLovers
-# DogLovers
+
