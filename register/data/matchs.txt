@@ -1,0 +1,7 @@
+Sah§SuperWoman|3§lebroneclo|2§leflochtho|1
+SuperWoman§lebroneclo|6§leflochtho|3
+Richie§lebroneclo|4§leflochtho|1
+lebroneclo§SuperWoman|5§Sammy|2
+leflochtho§lebroneclo|5
+Sammy§leflochtho|5§lebroneclo|3§louvelbr|3
+louvelbr

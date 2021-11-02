@@ -1,0 +1,170 @@
+#Infos{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  body,html {
+      height:100%;
+      margin: 0;
+      background-color: aliceblue;
+  
+  }
+  
+  #blocTitre {
+      padding:2%;
+      background-image: url(https://previews.123rf.com/images/booyy/booyy1508/booyy150800047/44063670-soft-color-roses-background.jpg);
+      height: 17%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      top:0;
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+  }
+  #Titre {
+      display: flex;
+      flex-direction: row;
+      color: white;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 20%;
+      transform: translate(-20%, -50%);
+      z-index: 1;
+      top: 15%;
+      width: 80%;
+      overflow: hidden;
+      font-family:Work Sans,Open Sans,Helvetica,Arial,sans-serif!important;
+  }
+  
+  #Titre > h1 {
+      padding-top: 50px;
+  }
+  #Titre > img {
+      padding-right: 5px;
+      z-index: 0;
+      overflow: hidden;
+      padding-bottom: 50px;
+  }
+  
+  .menu {
+      z-index: 1;
+      position: sticky;
+      top:0;
+  }
+  .menu > ul {
+      list-style: none;
+      margin:0;
+      padding:0;
+      overflow: hidden;
+      background-color:#EF5C76;
+  }
+  .menu > ul > li {
+      float:left;
+  }
+  .menu > ul > .deconnexion {
+      float:right;
+  }
+  .menu > ul > li > a {
+      display: block;
+      color:white;
+      text-align: center;
+      text-decoration: none;
+      padding: 15px 15px;
+  
+  }
+  .menu > ul > li > a:hover:not(.active) {
+      background-color:#F68387;
+  }
+  .active {
+      background-color:#B85985;
+  }
+  
+  #BlocInfo {
+      padding: 2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      border-radius: 5px;
+      margin-left: 2%;
+      background-color: #908CB1;
+      margin-top: 40px;
+      width:fit-content;
+      border-radius: 30px;
+      box-shadow: 0px 10px 25px 0px gray;
+  
+  }
+  
+  #titreTab {
+      padding-left: 5%;
+      padding-top: 2%;
+  }
+  
+  h2 {
+          color:white;
+          text-shadow: 5px 7px rgba(65, 140, 153, 0.11);;
+          font-size: 25px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  #titreInfo{
+      font-weight: bold;
+  }
+  
+  .messBannir{
+    border:5px solid #b85985;
+    border-radius: 30px;
+    padding: 10px;
+    width:30%;
+    text-align: center;
+    margin: 150px 0 0 35%;
+    background: #e1f4f7;
+  }
+  
+  /* Footer */
+footer{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+  }
+  footer {position: absolute; left : 0}
+  #footer {
+  background-color: #908CB1;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 4rem 0 2rem 0 ;
+  }
+  
+  #footer h3, #footer h4{
+    color: #ffffff; }
+  
+  #footer a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none; }
+    #footer a:hover {
+      color: #EF5C76; }
+  
+  #footer .content {
+    display: flex;}
+    #footer .content section {
+      width: 25%;}
+      #footer .content section:first-child {
+        width: 50%;
+        padding-right: 15rem;
+        padding-left: 4rem;
+      }
+      #footer .content section:last-child {
+        padding-left: 4rem; }
+  
+  
+  
+  #footer .copyright {
+    border-top: 1px solid;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    padding: 2rem 0;
+    text-align: center;
+    }
